@@ -1,0 +1,62 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin: 0 auto;
+	border: 2px solid #FFDAB9;
+	border-radius: 3px;
+	height: 30em;
+	box-shadow: 3px 3px 3px 3px rgba(255, 160, 122, .7);
+}
+
+.chat {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	height: 10%;
+	padding-top: 15px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.message {
+	width: 50%;
+	border-radius: 3px;
+	border: 3px solid #FFDAB9;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.btn {
+	width: 20%;
+	background: #FFDAB9;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-family: 'Source Code Pro', monospace;
+	color: #2b2828;
+
+}
+
+#window-message {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	border: 3px solid #FFDAB9;
+	border-radius: 3px;
+	height: 88%;
+	margin: 5px 7px;
+}
+
+.btn:hover {
+	background: #FFA07A;
+}
+
+.window-text {
+	max-width: 60%;
+	min-width: 15%;
+	border-radius: 5px;
+	border: 3px solid #FFDAB9;
+	align-self: flex-end;
+	display: flex;
+	justify-content: space-around;
+	
+}
